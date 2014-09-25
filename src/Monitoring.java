@@ -75,6 +75,10 @@ public class Monitoring {
 		policyObjectCount++;
 		policyObjects.add("contact");
 		policyObjectCount++;
+		policyObjects.add("hangup");
+		policyObjectCount++;
+		policyObjects.add("call_privileged");
+		policyObjectCount++;
 		for (int i = 0; i < policy_list.objectCount; i++)
 		{
 			if (!policyObjects.contains(policy_list.objects.get(i).toLowerCase())) 
